@@ -55,3 +55,6 @@ a {
   display: flex;
   gap: 15px;
 }
+i:hover {
+  cursor: pointer;
+}
