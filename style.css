@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "estedad";
+  src: url("./fonts/Estedad-Bold.eot") format("eot");
+  src: url("./fonts/Estedad-Bold.ttf") format("ttf");
+  src: url("./fonts/Estedad-Bold.woff") format("woff");
+  src: url("./fonts/Estedad-Bold.woff2") format("woff2");
+}
+
+.ic--baseline-search {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23a8aa6e' d='M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14'/%3E%3C/svg%3E");
+}
+body {
+  font-family: "estedad";
+  background-color: rgba(146, 161, 60, 255);
+}
+.h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+
+  background-color: rgba(217, 217, 217, 255);
+  border-radius: 10px;
+}
+#d1 {
+  height: 32px;
+  width: 190px;
+  border-radius: 10px;
+  background-color: #a8aa6e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#d1 h5 {
+  padding-right: 5px;
+}
+.d1 {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+a {
+  color: #586513;
+  text-decoration: none;
+}
+.n1 {
+  display: flex;
+  gap: 15px;
+}
